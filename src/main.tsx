@@ -1,5 +1,7 @@
-import { createRoot } from "react-dom/client";
-import App from "./App.tsx";
-import "./index.css";
-
-createRoot(document.getElementById("root")!).render(<App />);
+export default function App() {
+  return (
+    <div style={{ color: "white", padding: 40, fontSize: 24 }}>
+      ✅ APP IS RENDERING
+    </div>
+  );
+}
